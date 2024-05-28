@@ -2,27 +2,21 @@
 
 # Mecanum Wheels and Movement
 
-Mecanum wheels are specially designed wheels that allow us to move omnidirectionally, or in all direct
-ions, without the need for a steering system by apparently exerting a diagonal force.
+Mecanum wheels are specially designed wheels that allow us to move omnidirectionally, or in all directions, without the need for a steering system by apparently exerting a diagonal force.
 
-The following diagram illustrates one potential arrangement of four mecanum wheels on a robot that wil
-l be used as the basis for the rest of these notes:
+The following diagram illustrates one potential arrangement of four mecanum wheels on a robot that will be used as the basis for the rest of these notes:
 
 ![SVG image showing the forces involved with mecanum wheels](./images/Mecanum-Diagram-1.svg)
 
-Looking at the simplified diagram, force A is angled at 45 degrees, and force B is angled at -45 degre
-es. This means that their individual components are equal to each other in magnitude (remember $`\sin(4
-5)=\frac{\sqrt{2}}{2}`$ and $`\cos(45)=\frac{\sqrt{2}}{2}`$ so $`\sin(45)=\cos(45)`$). This will come up in a
- moment.
+Looking at the simplified diagram, force A is angled at 45 degrees, and force B is angled at -45 degrees. This means that their individual components are equal to each other in magnitude (remember $`\sin(4
+5)=\frac{\sqrt{2}}{2}`$ and $`\cos(45)=\frac{\sqrt{2}}{2}`$ so $`\sin(45)=\cos(45)`$). This will come up in a moment.
 
 Anyways, how do we program the wheels and their motor inputs for omnidirectional movement?
 
 
-Let’s approach this from a mathematical, physical perspective first. (This is a useful approach in pro
-gramming!)
+Let’s approach this from a mathematical, physical perspective first. (This is a useful approach in programming!)
 
-The first constraint is that for a given power P we do not want the total magnitude of A and B to exce
-ed P, rather we want them to equal P. In more mathematical terms:
+The first constraint is that for a given power P we do not want the total magnitude of A and B to exceed P, rather we want them to equal P. In more mathematical terms:
 
 $`||\vec{A}||+||\vec{B}||=P`$, ($`||\vec{x}||`$ means to take the *magnitude* of $`x`$)
 
@@ -119,7 +113,7 @@ Once again creating a table and letting the power $`P=1`$:
 | 180   | $`-\frac{\sqrt{2}}{2}`$ | $`\frac{\sqrt{2}}{2}`$  | $`\sqrt{2}`$           | -1    | 1                       |
 
 Plotted:
-![Plot of the preceding table](./images/Plot-3.png
+![Plot of the preceding table](./images/Plot-3.png)
 
 It seems that we found another wave pattern, though this time it’s nothing standard (i.e. not sinusoidal, triangular, square, sawtooth).
 
