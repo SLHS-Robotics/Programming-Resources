@@ -1,8 +1,8 @@
 ﻿
 # Hi!
-Hi, this repo is a collection of some resources that are useful for programming FTC robots, originally compiled during the 2023-2024 season. I hope that this can be a useful resource for y'all people of the future!
-
-    -- Joey Milausnic, Class of 2024
+> Hi, this repo is a collection of some resources that are useful for programming FTC robots, originally compiled during the 2023-2024 season. I hope that this can be a useful resource for y'all people of the future!
+>
+>    -- Joey Milausnic, Class of 2024
 
 
 # Programming Resources
