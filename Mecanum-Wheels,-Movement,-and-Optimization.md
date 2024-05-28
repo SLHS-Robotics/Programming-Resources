@@ -49,13 +49,13 @@ The second constraint is that for a given angle $`\theta`$ we want $`\tan(\theta
 
 Plotting these points $`(\theta, A) and (\theta, B)`$ yields the following plot:
 
-[Plot]()
+![Plot](./images/Plot-1.png)
 
 It is apparent that these points follow a *sinusoidal pattern*.
 
 Letting $`A(\theta)=\sin(\theta+45)`$ and $`B(\theta)=\sin(\theta-45)`$ where  represents the desired angle of travel, we get the following graph:
 
-[Other plot]()
+![Other plot](./images/Plot-2.png)
 
 These functions are a perfect fit for our points, even for points that we haven’t calculated! Unfortunately, we still have to account for desired power. (For obvious reasons, we may not want to be moving at full power all the time.) This, however, is an easy fix:
 $`A(\theta)=P\sin(\theta+45)`$
@@ -109,7 +109,7 @@ Once again creating a table and letting the power $`P=1`$:
 > Big table needs to go here
 
 Plotted:
->Graph to go here
+![Plot of the preceding table](./images/Plot-3.png
 
 It seems that we found another wave pattern, though this time it’s nothing standard (i.e. not sinusoidal, triangular, square, sawtooth).
 
@@ -119,7 +119,7 @@ $`\frac{1}{max(A(\theta),B(\theta))}=max(\csc(\theta+45),\csc(\theta-45))`$.
 
 Putting a cosecant function into the graph and translating it into place:
 
-> Another graph
+![Plot 4](./images/Plot-4.png)
 
 This cosecant function is obviously a perfect fit — for the first part of the wave, at least. Hence, we will need to find a way to repeat that section of the cosecant curve. We can do this by composing this cosecant function with either a triangular wave or a sawtooth wave. In this case, we’ll use a sawtooth wave as it is the comparatively simpler waveform.
 
@@ -137,7 +137,7 @@ $`S(\theta)=\csc(W_{saw mod}(\theta)+45)
 
 Graphed:
 
-> Insert graph
+![Big graph](./images/Plot-5)
 
 $`A_{new}(\theta)=S(\theta)A(\theta,P)`$
 
