@@ -106,7 +106,17 @@ It turns out that we are inputting $`\frac{\sqrt{2}}{2}`$ into `DcMotor.setPower
 
 Once again creating a table and letting the power $`P=1`$:
 
-> Big table needs to go here
+| Angle | A                       | B                       | **Scaling**            | New A | New B                   |
+|-------|-------------------------|-------------------------|------------------------|-------|-------------------------|
+| 0     | $`\frac{\sqrt{2}}{2}`$  | $`-\frac{\sqrt{2}}{2}`$ | $`\sqrt{2}`$           | 1     | -1                      |
+| 15    | $`\frac{\sqrt{3}}{2}`$  | $`-\frac{1}{2}`$        | $`\frac{2}{\sqrt{3}}`$ | 1     | $`-\frac{\sqrt{3}}{3}`$ |
+| 30    | 0.965926                | -0.258819               | $`\frac{1}{0.965926)`$ | 1     | -0.673227               |
+| 45    | 1                       | 0                       | 1                      | 1     | 0                       |
+| 60    | 0.965926                | 0.258819                | $`\frac{1}{0.965926)`$ | 1     | 0.673227                |
+| 75    | $`\frac{\sqrt{3}}{2}`$  | $`\frac{1}{2}`$         | $`\frac{2}{\sqrt{3}}`$ | 1     | $`\frac{\sqrt{3}}{3}`$  |
+| 90    | $`\frac{1}{\sqrt{2}}`$  | $`\frac{1}{\sqrt{2}}`$  | $`\sqrt{2}`$           | 1     | 1                       |
+| 135   | 0                       | 1                       | 1                      | 0     | 1                       |
+| 180   | $`-\frac{\sqrt{2}}{2}`$ | $`\frac{\sqrt{2}}{2}`$  | $`\sqrt{2}`$           | -1    | 1                       |
 
 Plotted:
 ![Plot of the preceding table](./images/Plot-3.png
@@ -121,6 +131,8 @@ Putting a cosecant function into the graph and translating it into place:
 
 ![Plot 4](./images/Plot-4.png)
 
+*Function pictured:* $`\csc(\theta+45)`$
+
 This cosecant function is obviously a perfect fit — for the first part of the wave, at least. Hence, we will need to find a way to repeat that section of the cosecant curve. We can do this by composing this cosecant function with either a triangular wave or a sawtooth wave. In this case, we’ll use a sawtooth wave as it is the comparatively simpler waveform.
 
 A sawtooth wave is defined as:
@@ -133,7 +145,7 @@ $`W_{saw mod}(x)=90*(\frac{1}{90}(x-45)-floor(\frac{1}{90}(x-45)+\frac{1}{2}))+9
 
 Then we simply substitute this for x in our cosecant function to get our scaling factor:
 
-$`S(\theta)=\csc(W_{saw mod}(\theta)+45)
+$`S(\theta)=\csc(W_{saw mod}(\theta)+45)`$
 
 Graphed:
 
