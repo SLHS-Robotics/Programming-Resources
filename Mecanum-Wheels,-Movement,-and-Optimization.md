@@ -137,7 +137,7 @@ $`S(\theta)=\csc(W_{saw mod}(\theta)+45)
 
 Graphed:
 
-![Big graph](./images/Plot-5)
+![Big graph](./images/Plot-5.png)
 
 $`A_{new}(\theta)=S(\theta)A(\theta,P)`$
 
