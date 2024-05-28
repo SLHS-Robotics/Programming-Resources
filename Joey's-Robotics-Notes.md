@@ -35,7 +35,7 @@ Programming guide
 
 Look at stuff in teamcode for SkyStone
 
-    Box is test robot
+- Box is test robot
 
 Motors, they come with encoders
 [https://mindgear.mx/products/neverest-classic-20-gearmotor-am-3102?variant=1188825595931](https://mindgear.mx/products/neverest-classic-20-gearmotor-am-3102?variant=1188825595931)
@@ -46,7 +46,7 @@ violin concerto op 35 Tchaikovsky
 
 Adding a servo (Launch motor)
 
-    For launching the plane
+- For launching the plane
 
 second servo for claw
 
@@ -88,9 +88,9 @@ x and y buttons → control the launch servo
 
 d-pad → control the lift motor
 
-    up = up/deploy
+- up = up/deploy
 
-    down = down/reset
+- down = down/reset
 
 a and b buttons → open/close claw
 
@@ -110,7 +110,7 @@ Arm done by break
 
 Design of basket by break - Friday 15th
 
-    3D print individually during break
+- 3D print individually during break
 
 Funnel in week after break
 
@@ -142,9 +142,9 @@ We need to write out a script for judging
 
 Chains
 
-    Chains catching on stuff
+- Chains catching on stuff
 
-    Remove slack from chains
+- Remove slack from chains
 
 ~~Fix directions for strafing~~
 
@@ -216,9 +216,9 @@ Thursday is also long
 
 Saturday
 
-    Could be as early as 8 ish
+- Could be as early as 8 ish
 
-    Maybe meet elsewhere to work longer
+- Maybe meet elsewhere to work longer
 
 How are we testing with the backdrop
 
@@ -226,15 +226,15 @@ How are we testing with the backdrop
 
 How build communicated their needs with us
 
-    Needs for safety backups
+- Needs for safety backups
 
 8 Revolutions all to get all the way up
 
-    the motor is 537.6 pulses per minute 
+- the motor is 537.6 pulses per minute 
 
 Continuous control of lift system
 
-    Still needs software endstops
+- Still needs software endstops
 
 Add d pad left to only close the lift to hanging point
 
@@ -258,17 +258,17 @@ Build sizing tool
 
 Create “Guide” for next season
 
-    Engineering notebook but just for us
+- Engineering notebook but just for us
 
 Work on multiple solutions at once
 
-    Design in parallel
+- Design in parallel
 
-    Almost like building stuff for the government/military
+- Almost like building stuff for the government/military
 
-        They want a fighter, everyone makes one, they pick their favorite
+  - They want a fighter, everyone makes one, they pick their favorite
 
-    Sorta like competitive
+- Sorta like competitive
 
 Season starts beginning of August
 
@@ -288,329 +288,262 @@ Learning onshape cad
 
 Possibly get people a cad or programming certification
 
-    We need to find out how/if we could administer testing for this
+- We need to find out how/if we could administer testing for this
 
 Furthering knowledge/skills proficiency with FTC tools (software and hardware)
 
 (hopefully) self led
 
-    Maybe 3 mini teams (one for each pair of phones)
+- Maybe 3 mini teams (one for each pair of phones)
 
 People who want to do CAD/Programming next season
 
-    Maybe we could put CAD with programming under software
+- Maybe we could put CAD with programming under software
 
-        Encourage a blending between the two groups
+  - Encourage a blending between the two groups
 
 Train people to give lessons
 
-    Get them to learn something, they present/teach next meeting
+- Get them to learn something, they present/teach next meeting
 
 Teaching stuff to middleschoolers, new people who come in with readvertizing, and people already here
 
 **Us**
 
-    Goof off with boxy
-
-        Use sensors
-
-    Write stuff now
-
-    2 new freshmen programmers
-
-    **Ideas**
-
-        Andrew teaches wrenches
-
-            Types of wrenches
-
-            Types of nuts
-
-            Types of allen keys
-
-        Andrew unboxing video
-
-        Robot that can be guided using AprilTags
-
-            Cube with tags on it
-
-            Top comes towards
-
-            Bottom goes away
-
-            Left and right sides strafe
-
-        Build a dedicated servo tester
-
-[https://elonics.org/servo-motor-controller-tester-circuit-using-555-ic/](https://elonics.org/servo-motor-controller-tester-circuit-using-555-ic/)
-
-            Could possibly use minicom to talk to modern robotics servo controllers
-
-[https://modernroboticsinc.com/product/core-servo-controller/](https://modernroboticsinc.com/product/core-servo-controller/)
-
-        Build chassis
-
-        DIY CNC machine
-
-        Robot with 
-
-        Build an EV or like vehicle of some sort
-
-        Mini tesla coil
-
-        **Robot with arm**
-
-            Follows april tag
-
-            Tags dictates task
-
-            Defensive area
-
-            Robot arm
-
-            2 joints
-
-            Pick up cube
-
-            Pick up and pour cup
-
-                Speed(?) stack?
-
-            Rotate in two directions
-
-            Suspend self
-
-            Put stuff on shelf?
-
-            Designing as a whole club
-
-            Possibly make “headless” (relative)
-
-        Tong bot
-
-            iykyk
-
-        Buy sensors
-
-            Color sensors - $19 each
-
-                Probably pretty versatile 
-
-            Touch sensors  - $8 each
-
-                Kinda mid, could be useful
-
-            2m  distance sensors - $29 each
-
-                Pretty lit 🔥
-
-            magnetic limit switch - $16 each
-
-                idk mid I guess
-
-                Not sure how useful they are
-
-            **Buying options**
-
-                [REV Sensor bundle](https://www.revrobotics.com/rev-45-1885/) - $172.50
-
-                    2 x color
-
-                    2x touch
-
-                    2x 2m distance
-
-                    2x magnetic limit switch
-
-                    4 pack of red/green indicators
-
-                    4 pack of 100mm wires
-
-                    4 pack of converter boards
-
-                REV Sensor bundle sans converter boards - $157.5
-
-                    2 x color
-
-                    2x touch
-
-                    2x 2m distance
-
-                    2x magnetic limit switch
-
-                    4 pack of red/green indicators
-
-                Our picks - $163.5
-
-                    4 x color
-
-                    2 x 2m distance
-
-                    2 x touch
-
-                    4 pack of red/green indicators
+- Goof off with boxy
+
+  - Use sensors
+
+- Write stuff now
+
+- 2 new freshmen programmers
+
+- **Ideas**
+- Andrew teaches wrenches
+	- Types of wrenches
+	- Types of nuts
+	- Types of allen keys
+- Andrew unboxing video
+- Robot that can be guided using AprilTags
+	- Cube with tags on it
+	- Top comes towards
+	- Bottom goes away
+	- Left and right sides strafe
+- Build a dedicated servo tester
+	- [https://elonics.org/servo-motor-controller-tester-circuit-using-555-ic/](https://elonics.org/servo-motor-controller-tester-circuit-using-555-ic/)
+	- Could possibly use minicom to talk to (old) modern robotics servo controllers
+		- [https://modernroboticsinc.com/product/core-servo-controller/](https://modernroboticsinc.com/product/core-servo-controller/)
+     - Build chassis
+     - DIY CNC machine
+     - Robot with
+     - Build an EV or like vehicle of some sort
+     - Mini tesla coil
+     - **Robot with arm**
+     	- Follows april tag
+      	- Tags dictates task
+       	- Defensive area
+       	- Robot arm
+       	- 2 joints
+       	- Pick up cube
+       	- Pick up and pour cup
+       	  - Speed(?) stack?
+       - Rotate in two directions
+       - Suspend self
+       - Put stuff on shelf?
+       - Designing as a whole club
+       - Possibly make “headless” (relative)
+- Tong bot
+	- iykyk
+- Buy sensors
+	- Color sensors - $19 each
+		- Probably pretty versatile
+	- Touch sensors  - $8 each
+		- Kinda mid, could be useful
+	- 2m  distance sensors - $29 each
+		- Pretty lit 🔥
+	- magnetic limit switch - $16 each
+		- idk mid I guess
+		- Not sure how useful they are
+	- **Buying options**
+		 - [REV Sensor bundle](https://www.revrobotics.com/rev-45-1885/) - $172.50
+   			- 2 x color
+   			- 2x touch
+   			- 2x 2m distance
+   			- 2x magnetic limit switch
+   			- 4 pack of red/green indicators
+   			- 4 pack of 100mm wires
+   			- 4 pack of converter boards
+		 - REV Sensor bundle sans converter boards - $157.5
+   			- 2 x color
+   			- 2x touch
+   			- 2x 2m distance
+   			- 2x magnetic limit switch
+   			- 4 pack of red/green indicators
+		 - Our picks - $163.5
+   			- 4 x color
+   			- 2 x 2m distance
+   			- 2 x touch
+   			- 4 pack of red/green indicators
 
 **Middle school** 
 
-    Small groups, 2-3 
+- Small groups, 2-3
+	- lia, lasse from girls team
+ 	- Techno team is starting from zero
 
-        lia, lasse from girls team
+- I want to get them all to try writing actual code, not blocks
 
-        Techno team is starting from zero
+  - Python would be great
 
-    I want to get them all to try writing actual code, not blocks
+  - OBJ is actual experience with java
 
-        Python would be great
+  - Using android studio would be ideal, but I don’t think they can get that 😡
 
-        OBJ is actual experience with java
+- Teach whole club a little code
 
-        Using android studio would be ideal, but I don’t think they can get that 😡
+  - Get them all exposed
 
-    Teach whole club a little code
+  - They have two teams (these are kinda going away for now), they are building new bots for practice there will be 2 independents groups (~3 people each) learning code at once
 
-        Get them all exposed
+- One day a coding challenge for whole team
 
-        They have two teams (these are kinda going away for now), they are building new bots for practice there will be 2 independents groups (~3 people each) learning code at once
+  - How could this work?
 
-    One day a coding challenge for whole team
+- What programming resources do they have access to?
 
-        How could this work?
+  - On the robots
 
-    What programming resources do they have access to?
+    - Mid
 
-        On the robots
+  - Has blocks and OBJ editors
 
-            Mid
+  - Tinker CAD??
 
-        Has blocks and OBJ editors
+    - Difficult, requires learning a little electronics
 
-        Tinker CAD??
+   - ~~Scratch~~
 
-            Difficult, requires learning a little electronics
+      - ~~Blocked 😭~~
 
-        ~~Scratch~~
-
-            ~~Blocked 😭~~
-
-            Email Mrs Evans with message about scratch
+      - Email Mrs Evans with message about scratch
 
 [https://ftcsim.org/](https://ftcsim.org/)
 
 Maybe more advanced for people already in the club
 
-    April tags and computer vision
+- April tags and computer vision
 
 Create stuff for start of next year to start teaching people again
 
 Make things we can give to sponsors?
 
-    Competition
+- Competition
 
 Daily slides with agenda for each team
 
-    At end say what we did and what we are going to do next meeting
+- At end say what we did and what we are going to do next meeting
 
 ## Timeline
 
 Tues Feb 6 - Work on possible lesson topics
 
-    Methods for how to tech
+- Methods for how to tech
 
-    Key skills everyone needs
+- Key skills everyone needs
 
 Thurs Feb 8 - Introduced AS to girls
 
-    Copied OBJ code to AS
+- Copied OBJ code to AS
 
-    It works!
+- It works!
 
-    Overviewed our code
+- Overviewed our code
 
-    setting up drive motors and such
+- setting up drive motors and such
 
-    Introduced Git
+- Introduced Git
 
-    They did some debugging on AS
+- They did some debugging on AS
 
 Fri Feb 9
 
-    Recap MS meeting
+- Recap MS meeting
 
-    Plan for what the hay WE are doing
+- Plan for what the hay WE are doing
 
 Tues Feb 13
 
-    HS
+- HS
 
-        2 more programmers
+   - 2 more programmers
 
-        Walked them through our TeleOp
+   - Walked them through our TeleOp
 
-        Learned about robot simulators
+   - Learned about robot simulators
 
-    MS 
+- MS 
 
-        Got started with creating a new OpMode
+   - Got started with creating a new OpMode
 
-        New programmer
+   - New programmer
 
 Thurs Feb 15
 
-    **Goal:** Create motors in code
+- **Goal:** Create motors in code
 
-        Have functional on virtual bot or real hardware
+   - Have functional on virtual bot or real hardware
 
-        If real hardware, teach a little wiring
+   - If real hardware, teach a little wiring
 
-    Counted all the keys on a keyboard
+- Counted all the keys on a keyboard
 
-    plus one more programmer
+- plus one more programmer
 
-    Learned about where hardware plugs into
+- Learned about where hardware plugs into
 
-    Got through some of the motor setup
+- Got through some of the motor setup
 
 Tues Feb 20
 
-    **Goal**: Speedrun the first like 3 weeks of the club in one meeting
+- **Goal**: Speedrun the first like 3 weeks of the club in one meeting
 
-        Get them to upload their own opmode on the phones
+   - Get them to upload their own opmode on the phones
 
-    Showed new programmer basic opmode structure and uploaded opmode to robot
+- Showed new programmer basic opmode structure and uploaded opmode to robot
 
-    Created basic AprilTag following opmode
+- Created basic AprilTag following opmode
 
-    HS
+- HS
 
-        We had no computer to program with
+   - We had no computer to program with
 
-        Got servo motors sorted
+   - Got servo motors sorted
 
-    MS
+- MS
 
-        I didn't have my laptop
+   - I didn't have my laptop
 
-        They got the rest of the code for motors written
+   - They got the rest of the code for motors written
 
-        Also looked at servos
+   - Also looked at servos
 
 Fri Feb 23
 
-    Made good version of apriltag following code
+- Made good version of apriltag following code
 
 Tues Mar 12
 
-    HS
+- HS
 
-        Learned about collaboration in using github
+   - Learned about collaboration in using github
 
-    MS
+- MS
 
-        Created program to control 2 servos and a motor
+   - Created program to control 2 servos and a motor
 
-        Added some improvements that should make servo control better
+   - Added some improvements that should make servo control better
 
-        Maybe add in checking if either button is pressed
+   - Maybe add in checking if either button is pressed
 
 > Okay so yeah i'm not going to mess with the indentation for the code here, this is all yap anyways
 > If someone reading this thinks this seems prommising or useful, please pursue this path
@@ -681,36 +614,36 @@ Next time we will have to test
 
 Friday 15
 
-    Tasks to be completed
+- Tasks to be completed
 
-    Create the drive motors
+- Create the drive motors
 
-    Create the arm motors and servos
+- Create the arm motors and servos
 
-    Create basic drive 
+- Create basic drive 
 
-        Forwards/backwards and turn left/right
+   - Forwards/backwards and turn left/right
 
-    Create manual control for arm
+- Create manual control for arm
 
 April 19
 
-    Profusely apologize for extended leave
+- Profusely apologize for extended leave
 
-    [Review PR](https://github.com/SLHS-Robotics/SLHS-Offseason-2024/pull/14)
+- [Review PR](https://github.com/SLHS-Robotics/SLHS-Offseason-2024/pull/14)
 
-    Read Tian’s other PRs and figure out how they should be merged
+- Read Tian’s other PRs and figure out how they should be merged
 
-    Commits for issue 3 did not come through
+- Commits for issue 3 did not come through
 
 
 May 7
 
-    Suggestions from Mr. Davis
+- Suggestions from Mr. Davis
 
-        Instead of teaching programming, teach the concepts
+   - Instead of teaching programming, teach the concepts
 
-        Showing them some of what they could do with programming  
+   - Showing them some of what they could do with programming  
 
 Check out ultrasonics for next year
 
