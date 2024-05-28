@@ -71,6 +71,7 @@ Inverse Kinematics
 
 
 ## How to use mecanum wheels
+<!-- Leave the 1984/Candide quote here, please never delete it -Joey -->
 We read 1984 and started Candide in the first quarter theses texts were excellent for analysis and presented challenging topics for students
 ![Diagram showing the different movements possible with Mecanum wheel](https://www.physicsforums.com/attachments/1617205061630-png.280664/) 
 
